@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-name {
+    padding: 15px;
+    margin-right: 15px;
+
+    background-color: #c1c1c1;
+}
+
+.log-button {
+    height: 100%;
+}
+
+.log-btn__wrapper {
+    padding: 15px;
+    background-color: lightblue;
+}
+
+.page-content {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px;
+}
+
+.form-csv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-element__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 15px;
+}
+
+.label-file {
+    width: 100%;
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    font-weight: 700;
+}
+
+.mess {
+    width: 350px;
+    max-width: 100%;
+    height: 250px;
+}
+
+.form-element__file {
+    border: 1px solid #ff0000;
+    padding: 5px;
+}
+
+.form-element__submit {
+    width: 100%;
+}
+
+.form-element__submit > * {
+    font-size: 25px;
+    font-weight: 700;
+}

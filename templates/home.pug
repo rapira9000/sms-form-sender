@@ -1,0 +1,13 @@
+include header
+
+div.page-content.page-home
+    form(method="POST", class="form-csv", action=urlToSend, enctype="multipart/mixed")
+        div.form-element__wrapper.form-element__textarea
+            textarea(name="mess", class="mess", placeholder="Сообщение", required=true)
+        div.form-element__wrapper.form-element__file
+            label(for="file", class="label-file") Add CSV file
+            input(type="file", name="csv", id="file", accept="text/csv" required=true)
+        div.form-element__wrapper.form-element__submit
+            input(type="submit" value="Send")
+
+include footer
